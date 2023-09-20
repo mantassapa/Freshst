@@ -94,13 +94,51 @@
 
     <!--antra forma-->
     <form action="">
-        <div>
-            <fieldset> 
-                <legend>Vardas</legend>
-                <input type="text" name="name" id="name">
-            </fieldset>
-           
-        </div>
+        <table>
+            <tr>
+                <td>vardas</td>
+                <td>Pavarde</td>
+                
+            </tr>
+            <tr>
+                <td><input type="text" name="name" id="name" required></td>
+                <td><input type="text" name="surn" id="surn" required></td>
+            </tr>
+            <tr>
+                <td>Telefonas</td>
+                <td>Imones pavadinimas</td>
+            </tr>
+            <tr>
+                <td><input type="tel" name="phone" id="phone" placeholder="Pvz+37066677778" required ></td>
+                <td><input type="text" name="imone" id="imone"  required></td>
+            </tr>
+        </table>
+        <!--antras stalas-->
+        <table>
+            <tr>
+                <td>Miestas</td>
+                <td>Adreas</td>
+            </tr>
+            <tr><!--dadeti miestu!!-->
+                <td><select name="city">
+                    <option value="city" disabled>--Pasirinkite--</option>
+                    <option value=""></option>
+                </select>     
+                </td>
+                <td><input type="text" name="address" id="address" required></td>
+            </tr>
+            <tr>
+                <td>Pasto kodas (tik skaiciai)</td>
+            </tr>
+            <tr>
+                <td rowspan="2"><input type="number" name="postcode" id="postcode" required></td>
+            </tr>
+            <tr>
+                <td><button type="reset">Atsaukti</button></td>
+                <td><button type="submit">Isaugoti pakeitimus</button></td>
+            </tr>
+
+        </table>
 
     </form>
 </body>
