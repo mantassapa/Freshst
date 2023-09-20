@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forma</title>
+</head>
+<body>
+    <form action="_blank" method="get">
+        <div>
+         <label for="name">Vardas:</label>
+         <input type="text" id="name" name="name" required>
+        </div>
+        <div>
+         <label for="pavarde">Pavarde:</label>
+         <input type="text" name="pavarde" id="pavarde" required>
+        </div>
+        <div>
+         <label for="email">El.pastas:</label>
+         <input type="email" name="email" id="email" required>
+        </div>
+        <div>
+            <label for="passw">Password</label>
+            <input type="password" name="passw" id="passw" required>
+        </div>
+        <ol type="a">
+          <li>
+            <div>
+                <label for="street">Gatve:</label>
+                <input type="text" name="street" id="street" required>
+            </div>
+           </li>
+           <li>
+            <div>
+                <label for="house">Namo numeris:</label>
+                <input type="number" name="house" id="house" min="1" required>
+            </div>
+           </li>
+           <li>
+            <div>
+                <label for="city">City:</label>
+                <select name="city" id="city">
+                    <option value="city" disabled>City</option>
+                    <option value="kaunas">Kaunas</option>
+                    <option value="vilnius">Vilnius</option>
+                    <option value="alytus">Alytus</option>
+                </select>
+            </div>
+           </li>
+        </ol>
+        <fieldset>
+            <legend for="pay">Apmokejimas:</legend>
+
+
+        <div>
+            <label for="pay1">Visa</label>
+            <input type="radio" name="pay1" id="pay2">
+
+        </div>
+        <div>
+            <label for="pay1">master</label>
+            <input type="radio" name="pay1" id="pay2">
+
+        </div>
+       </fieldset>
+        <div>
+            <label for="gif">Gifts:</label>
+        </div>
+        <div>
+            <label for="one">One</label>
+            <input type="checkbox" name="one" id="one">
+        </div>
+        <div>
+            <label for="one1">Anather</label>
+            <input type="checkbox" name="one1" id="one1">
+        </div>
+        <div>
+            <label for="on">Anather One</label>
+            <input type="checkbox" name="on" id="on">
+        </div>
+        <fieldset>
+            <legend>Komentarai</legend>
+            <textarea name="com" id="com" cols="40" rows="10" placeholder="Pakomentuokite" disabled></textarea>
+        </fieldset>
+        <div>
+            <input type="submit" value="submit">
+            <input type="reset" value="reset">
+        </div>
+
+    </form>
+</body>
+</html>
