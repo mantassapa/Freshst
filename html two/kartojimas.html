@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <ol type="I" te>
+        <li>list item 1
+            <ol type="a">
+            <li>Nested item 1.1</li>
+            <li>Nested item 1.2</li>
+           </ol>
+        </li>
+        <li>list item 2
+            <ol type="1">
+            <li>Nested item 2.1</li>
+            <li>Nested item 2.2
+                <ul style="list-style-type:circle">
+                    <li>Nested item 2.2.1</li>
+                    <li>Nested item 2.2.2
+                        <ul style="list-style-type:square">
+                            <li>Nested item 2.2.2.1</li>
+                            <li>Nested item 2.2.2.2</li>
+                        </ul>
+                    </li>
+                    <li>Nested item 2.2.3</li>
+                </ul>
+            </li>
+            <li>Nested item 2.3</li>
+           </ol>
+        </li>
+        <li>List item 3
+            <ul style="list-style-type:disc">
+                <li>Nested item 3.1</li>
+                <li>Nested item 3.2</li>
+                <li>Nested item 3.3</li>
+            </ul>
+        </li>
+    </ol>
+
+ <!--Forma-->
+    <form action="">
+        <div>
+            <label for="email">Email:</label>
+            <input type="text" name="email" id="email" required>
+        </div>
+        <div>
+            <label for="pass"> Password:</label>
+            <input type="password" name="pass" id="pass" required>
+        </div>
+        <div>
+            <label for="cpass">Confirm password:</label>
+            <input type="password" name="cpass" id="cpass" required>
+        </div>
+        <div>
+            <label for="upl">Upluoad picture:</label>
+            <input type="file">
+        </div>
+        <div>
+            <label for="gend">Gender:</label>
+            <input type="radio" name="gend" id gend>
+            <label for="gend">Female</label>  
+            
+            <input type="radio" name="gend" id gend>
+            <label for="gend">Male</label>  
+        </div>
+        <div>
+            <label for="sel">Select Country:</label>
+            <select name="sel" id="sel">
+                <option value="lithuania">Lithuania</option>
+                <option value="lith">Lith</option>
+                <option value="united kingdom">United kingdom</option>
+            </select>
+        </div>
+        <div>
+            <label for="hob">Hobby:</label>
+            <input type="radio" name="hob" id gend>
+            <label for="hob">Cricket</label>  
+            
+            <input type="radio" name="hob" id gend>
+            <label for="hob">Footbal</label>  
+        </div>
+        <div>
+            <label for="texta">Address:</label>
+        <textarea name="texta" id="texta" cols="30" rows="10" placeholder="write your addres here"></textarea>
+        </div>
+        <div>
+            <button type="submit">submit</button>
+        </div>
+    </form>
+
+    <!--antra forma-->
+    <form action="">
+        <div>
+            <fieldset> 
+                <legend>Vardas</legend>
+                <input type="text" name="name" id="name">
+            </fieldset>
+           
+        </div>
+
+    </form>
+</body>
+</html>
