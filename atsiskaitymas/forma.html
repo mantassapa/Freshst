@@ -9,7 +9,7 @@
     <header>
         <hr>
         <div>
-         <a href=""><img src="../photo/istockphoto-1414160809-612x612.jpg" alt="logo" width="100px"></a>
+         <a href="index.html"><img src="../photo/istockphoto-1414160809-612x612.jpg" alt="logo" width="100px"></a>
          <a href="login.html"><button type="submit">login</button></a>
         </div>
     </header>
@@ -17,12 +17,86 @@
 <form action="index.html">
     <div>
         <label for="name">Vardas;</label>
-        <input type="text" name="name" id="name">
+        <input type="text" name="name" id="name" pattern="[a-zA-Z]+" required>
     </div>
     <div>
         <label for="email">E-mail</label>
-        <input type="email" name="email" id="email">
+        <input type="email" name="email" id="email" required>
     </div>
+    <div>
+        <label for="tel">Telefonas</label>
+        <input type="tel" class="tel" id="tel" required>
+    </div>
+    <div>
+        <label for="pasir">pasirinkimas1</label>
+        <select name="pasi" id="pasi">
+            <option value="vienas">vienas</option>
+            <option value="dvejetas">dvejetas</option>
+            <option value="trejetas">trejetas</option>
+        </select>
+    </div>
+    <div>
+        <label for="pasir">pasirinkimas2</label>
+        <select name="pasi" id="pasi">
+            <option value="vienas">vienas</option>
+            <option value="dvejetas">dvejetas</option>
+            <option value="trejetas">trejetas</option>
+        </select>
+    </div>
+    <div>
+        <label for="pasir">pasirinkimas3</label>
+        <select name="pasi" id="pasi">
+            <option value="vienas">vienas</option>
+            <option value="dvejetas">dvejetas</option>
+            <option value="trejetas">trejetas</option>
+        </select>
+    </div>
+    <div>
+        <label for="date">Data</label>
+        <input type="date" name="date" id="date">
+    </div>
+    <!--checkbox-->
+    <div>
+        <label for="ckack1">ckeck1</label>
+        <input type="checkbox" name="check1" id="check1">
+    </div>
+
+    <div>
+        <label for="check2">check2</label>
+        <input type="checkbox" name="check2" id="check2">
+    </div>
+    <div>
+        <label for="check3">check3</label>
+        <input type="checkbox" name="check3" id="check3">
+    </div>
+    <div>
+        <label for="check4">check4</label>
+        <input type="checkbox" name="check4" id="check4">
+    </div>
+    <!--radio-->
+    <div>
+        <label for="sel1">sel1</label>
+        <input type="radio" name="sel1" id="sel1">
+    </div>
+    <div>
+        <label for="sel1">sel2</label>
+        <input type="radio" name="sel1" id="sel1">
+    </div>
+    <div>
+        <label for="sel1">sel3</label>
+        <input type="radio" name="sel1" id="sel1">
+    </div>
+    <div>
+        <label for="sel1">sel4</label>
+        <input type="radio" name="sel1" id="sel1">
+    </div>
+    <div>
+        <label for="text">text</label>
+        <textarea name="area" id="area" cols="30" rows="10"></textarea>
+    </div>
+
+    <button type="submit">submit</button>
+
 </form>
 
     <footer>
